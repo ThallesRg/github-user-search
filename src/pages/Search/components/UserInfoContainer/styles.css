@@ -1,0 +1,22 @@
+.user-info-container {
+    width: 1250px;
+    height: 360px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-top: 23px;
+    display: flex;
+}
+
+
+
+.button-adjust {
+    margin-left: -94px;
+    margin-top: 10px;
+}
+
+.section-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

@@ -1,0 +1,14 @@
+.main-nav {
+    height: 62px;
+    background-color: #1890FF;
+    
+}
+
+.nav-logo-text {
+    display: inline-block;
+    padding: 15px 40px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFF;
+    text-decoration: none;
+}
