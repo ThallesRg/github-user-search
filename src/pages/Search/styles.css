@@ -35,3 +35,11 @@
     color: #BFBFBF;
 }
 
+.user-loader {
+    display: flex;
+}
+
+.right-loader {
+    margin-top: 25px;
+    margin-left: -70px;
+}
