@@ -54,14 +54,14 @@ const Search = () => {
                     </div>) : (visible && 
                         <UserInfoContainer 
                             userUrl={name} 
-                            imgUrl={githubResponse?.avatar_url ?? "loading..."} 
-                            company={githubResponse?.company ??"loading..." } 
+                            imgUrl={githubResponse?.avatar_url ?? "No data"} 
+                            company={githubResponse?.company ??"No data" } 
                             followers={githubResponse?.followers ?? 999} 
                             following={githubResponse?.following ?? 999} 
-                            location={githubResponse?.location ?? "loading..."} 
+                            location={githubResponse?.location ?? "No data"} 
                             memberSince={githubResponse?.created_at ?? "00/00/00"} 
                             publicRepositories={githubResponse?.public_repos ?? 999} 
-                            website={githubResponse?.blog ?? "loading.com.br"}
+                            website={githubResponse?.blog ?? "No data"}
                         />) }
             </div>
         </Fragment>
