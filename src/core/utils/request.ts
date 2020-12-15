@@ -7,9 +7,9 @@ type RequestParams = {
     params?: object;
 }
 
-const BASE_URL = 'https://api.github.com/users/'
+const BASE_URL = 'https://api.github.com/users'
 
-export const MakeRequest = ({ method="GET", url, data, params  }: RequestParams) => {
+export const makeRequest = ({ method="GET", url, data, params }: RequestParams) => {
     return axios({
         method,
         url: `${BASE_URL}${url}`,

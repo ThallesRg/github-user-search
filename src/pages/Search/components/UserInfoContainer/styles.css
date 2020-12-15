@@ -1,5 +1,5 @@
 .user-info-container {
-    width: 1250px;
+    width: 1230px;
     height: 360px;
     background: #F5F5F5;
     border-radius: 8px;
@@ -16,7 +16,75 @@
 }
 
 .section-2 {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    width: 870px;
+    height: 280px;
+    
+    margin-left: 44px;
+}
+
+.top-info  ul{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.top-info  ul li{
+    list-style: none;
+    margin-right: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #595959;
+    padding: 0 14px;
+}
+
+.img-container {
+    width: 280px;
+    height: 280px;
+}
+
+.bottom-info {
+    background-color: #FFF;
+    height: 250px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+}
+
+.bottom-info h4 {
+    color: #1890FF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 14px;
+    padding-top: 8px;
+}
+
+.bottom-info ul {
+    margin-top: 10px;
+}
+
+.bottom-info ul li{
+    list-style: none;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 840px;
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.bottom-info ul li h5{
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.bottom-info ul li b{
+    font-weight: bold;
 }

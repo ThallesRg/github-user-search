@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 type Props = {
-    text: String;
+    text: string;
     margin120?: Boolean;
 }
 
